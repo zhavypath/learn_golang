@@ -1,1 +1,8 @@
-In Go, strings are represented as "runes", which are integer values mapped to their unicode counterparts.
+1. In Go, strings are represented as "runes", which are integer values mapped to their unicode counterparts.
+2. Specifying type while declaring constant is optional. Go gives it a special undefined data type and converts it to an appropriate data type at the point it is used.
+3. If any constant or variable is declared at the top level and the first letter is capitalized, it becomes truly global and accessible from outside of the main package.
+4. If a variable or constant is declared at the top level, then var or const keywords must be specified. The shourtcut assignment operator := cannot be used.
+5. int data type corresponds to either int32 or int64 and uint corresponds to either uint32 or uint64.
+6. To force a variable to store a number as a floating point value, ensure to specify the decimal component, even if it is zero.
+7. If a numeric variable is not given a value at declaration time, then its value is automatically assigned to zero. Similarly for boolean variables value is false. And for string variables value is ""
+8. Strings can bed efined using double goutes " or backquotes `. Double quotes cannot include newlines, but they allow to insert special escape characters like \n, \t etc. Anything inside bakquotes is used completely literally.
