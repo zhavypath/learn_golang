@@ -5,4 +5,4 @@
 5. int data type corresponds to either int32 or int64 and uint corresponds to either uint32 or uint64.
 6. To force a variable to store a number as a floating point value, ensure to specify the decimal component, even if it is zero.
 7. If a numeric variable is not given a value at declaration time, then its value is automatically assigned to zero. Similarly for boolean variables value is false. And for string variables value is ""
-8. Strings can bed efined using double goutes " or backquotes `. Double quotes cannot include newlines, but they allow to insert special escape characters like \n, \t etc. Anything inside bakquotes is used completely literally.
+8. Strings can be defined using double qoutes " or back quotes `. Double quotes cannot include newlines, but they allow to insert special escape characters like \n, \t etc. Anything inside back quotes is used completely literally.
